@@ -103,6 +103,7 @@ footer .name{
 
 .project {
     display: flex;
+    justify-content: space-between;
     margin: 83px 0 0 0;
     
 }
@@ -117,6 +118,7 @@ footer .name{
     background-image: url("../assets/Thumbnail.svg");
     Width: 640px;
     Height: 364.68px;
+    margin: 0 0 0 50px;
     
 }
 
@@ -129,8 +131,9 @@ footer .name{
 .project .two-content{
     display: flex;
     flex-direction: column;
-    
-
+    Width: 356px;
+    Height: 169px;
+    margin: 25px 0 0 0;
 }
 
 .project .style-txt{
@@ -147,7 +150,15 @@ footer .name{
 .project .style-bottom{
     font: 500 22px 'DM Sans';
     color: #181717;
+    text-decoration-line: underline;
+    margin: 167px 0 0 0;
     
+}
+
+.line-txt{
+    border: 1px solid #181717;
+    width: 1115.06px;
+    margin: 108px 0 0 0;
 }
 
 
