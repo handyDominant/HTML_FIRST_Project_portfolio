@@ -114,6 +114,7 @@ footer .name{
     
 }
 
+/*Картинка*/
 .project .img-content{
     background-image: url("../assets/Thumbnail.svg");
     Width: 640px;
@@ -134,19 +135,23 @@ footer .name{
     Width: 356px;
     Height: 169px;
     margin: 25px 0 0 0;
+    justify-content: space-between;
 }
 
+/*текст о том, что учил*/
 .project .style-txt{
     font: 400 22px 'DM Sans';
     color: #181717;
 
 }
-
+/*текст о том, что прошел*/
 .project .style-center{
     color: #606060;
     font: 400 22px 'DM Sans';
+    
 }
 
+/*из проекта*/
 .project .style-bottom{
     font: 500 22px 'DM Sans';
     color: #181717;
@@ -155,6 +160,7 @@ footer .name{
     
 }
 
+/*Код линии*/
 .line-txt{
     border: 1px solid #181717;
     width: 1115.06px;
