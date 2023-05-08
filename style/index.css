@@ -19,7 +19,8 @@ header{
     margin-top: 15px;
 }
 
-/*тут хранится картинка: (главный логотип)*/
+/*тут хранится картинка. (главный логотип)*/
+/*(логотип)*/
 header .img-logo {
     background-image: url("../assets/hs..svg");
     width: 64px;
@@ -44,7 +45,8 @@ header nav p {
     margin-top: 128px;
 }
 
-/*тут хранится картинка: (стрелочка line 2)*/
+/*тут хранится картинка (стрелочка. line 37)*/
+/*(стрелочка. line 37)*/
 .preview .img-arrow{
     background-image: url("../assets/↓.svg");
     width: 33.61px;
@@ -138,20 +140,23 @@ footer .name{
     justify-content: space-between;
 }
 
-/*текст о том, что учил*/
+/*блок портфолио номер 1 (учил)*/
+/*Section 1*/
 .project .style-txt{
     font: 400 22px 'DM Sans';
     color: #181717;
 
 }
-/*текст о том, что прошел*/
+/*блок портфолио номер 1 (прошел)*/
+/*Section 1*/
 .project .style-center{
     color: #606060;
     font: 400 22px 'DM Sans';
     
 }
 
-/*из проекта*/
+/*блок портфолио номер 1 (кадры)*/
+/*Section 1*/
 .project .style-bottom{
     font: 500 22px 'DM Sans';
     color: #181717;
@@ -159,6 +164,151 @@ footer .name{
     margin: 167px 0 0 0;
     
 }
+
+/*Конец блока Section 3*/
+
+
+
+/*Начало section 2*/
+/*Картинка*/
+.project-two {
+    display: flex;
+    justify-content: space-between;
+    margin: 83px 0 0 0;
+    
+}
+
+.project-two .text{
+    font:500 24px 'DM Sans';
+    color: #181717;
+    
+}
+
+
+
+/*Картинка*/
+.project-two .img-content_two{
+    background-image: url("../assets/Thumbnail.svg");
+    Width: 640px;
+    Height: 364.68px;
+    margin: 0 0 0 50px;
+    
+}
+
+.project-two .h2_portfolio_two{
+    color: #181717;
+    font: 500 24px 'DM Sans';
+    
+}
+
+.project-two .two-content_two{
+    display: flex;
+    flex-direction: column;
+    Width: 356px;
+    Height: 169px;
+    margin: 25px 0 0 0;
+    justify-content: space-between;
+}
+
+/*блок портфолио номер 1 (учил)*/
+/*Section 3*/
+.project-two .style-txt_two{
+    font: 400 22px 'DM Sans';
+    color: #181717;
+
+}
+/*блок портфолио номер 1 (прошел)*/
+/*Section 3*/
+.project-two .style-center_two{
+    color: #606060;
+    font: 400 22px 'DM Sans';
+    
+}
+
+/*блок портфолио номер 1 (кадры)*/
+/*Section 3*/
+.project-two .style-bottom_two{
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration-line: underline;
+    margin: 167px 0 0 0;
+    
+}
+
+/*Конец блока section 2*/
+
+
+
+
+
+/*Начало section 3*/
+/*Картинка*/
+.project-three {
+    display: flex;
+    justify-content: space-between;
+    margin: 83px 0 0 0;
+    
+}
+
+.project-three .text{
+    font:500 24px 'DM Sans';
+    color: #181717;
+    
+}
+
+
+
+/*Картинка*/
+.project-three .img-content_three{
+    background-image: url("../assets/Thumbnail.svg");
+    Width: 640px;
+    Height: 364.68px;
+    margin: 0 0 0 50px;
+    
+}
+
+.project-three .h2_portfolio_three{
+    color: #181717;
+    font: 500 24px 'DM Sans';
+    
+}
+
+.project-three .two-content_three{
+    display: flex;
+    flex-direction: column;
+    Width: 356px;
+    Height: 169px;
+    margin: 25px 0 0 0;
+    justify-content: space-between;
+}
+
+/*блок портфолио номер 1 (учил)*/
+/*Section 3*/
+.project-three .style-txt_three{
+    font: 400 22px 'DM Sans';
+    color: #181717;
+
+}
+/*блок портфолио номер 1 (прошел)*/
+/*Section 3*/
+.project-three .style-center_three{
+    color: #606060;
+    font: 400 22px 'DM Sans';
+    
+}
+
+/*блок портфолио номер 1 (кадры)*/
+/*Section 3*/
+.project-three .style-bottom_three{
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    text-decoration-line: underline;
+    margin: 167px 0 0 0;
+    
+}
+
+/*Конец блока section 3*/
+
 
 /*Код линии*/
 .line-txt{
