@@ -211,6 +211,16 @@ header nav p:hover {
 
 }
 
+.contacts .callback {
+    font: 400 32px 'DM Sans';
+    font-style: normal;
+    color: #181717;
+
+    width: 347px;
+    height: 71px;
+
+}
+
 
 
 /*Конец работы с contacts*/
