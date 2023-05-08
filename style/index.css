@@ -5,18 +5,24 @@
     font-family: 'DM Sans';
 }
 
-body{
+body {
     width: 1200px;
     margin: auto;
     background: #E5E5E5;
 }
 
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
+    padding: 15px 0;
+    background-color: #E5E5E5;
+
+    position: fixed;
+    left:auto;
+    top: 0;
+    width: 1200px;
 }
 
 /*тут хранится картинка. (главный логотип)*/
@@ -35,9 +41,16 @@ header nav {
 }
 
 header nav p {
-    margin-right: 27px;
     color: #181717;
     font: 500 27px 'DM Sans'
+}
+
+header nav p:not(:last-child) {
+    margin-right: 27px;
+}
+
+header nav p:hover {
+    text-decoration: underline;
 }
 
 
@@ -47,13 +60,19 @@ header nav p {
 
 /*тут хранится картинка (стрелочка. line 37)*/
 /*(стрелочка. line 37)*/
-.preview .img-arrow{
+.preview .img-arrow {
+    position: relative;
     background-image: url("../assets/↓.svg");
     width: 33.61px;
     height: 39.94px;
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: 128px;
+}
+
+.preview .img-arrow:hover {
+    top: 8px;
+    
 }
 
 .preview .info{
@@ -86,9 +105,14 @@ footer .networks {
 }
 
 footer .networks p{
-    margin-right: 30px;
     font: 500 22px 'DM Sans';
     color: #181717;
+    
+}
+
+footer .networks p:not(:last-child) {
+    margin-right: 30px;
+    
     
 }
 
@@ -165,7 +189,7 @@ footer .name{
     
 }
 
-/*Конец блока Section 3*/
+/*Конец блока Section 1*/
 
 
 
@@ -211,14 +235,14 @@ footer .name{
 }
 
 /*блок портфолио номер 1 (учил)*/
-/*Section 3*/
+/*Section 2*/
 .project-two .style-txt_two{
     font: 400 22px 'DM Sans';
     color: #181717;
 
 }
 /*блок портфолио номер 1 (прошел)*/
-/*Section 3*/
+/*Section 2*/
 .project-two .style-center_two{
     color: #606060;
     font: 400 22px 'DM Sans';
@@ -226,7 +250,7 @@ footer .name{
 }
 
 /*блок портфолио номер 1 (кадры)*/
-/*Section 3*/
+/*Section 2*/
 .project-two .style-bottom_two{
     font: 500 22px 'DM Sans';
     color: #181717;
