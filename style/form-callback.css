@@ -116,6 +116,12 @@ header nav p:hover {
     border-radius: 5px;
 }
 
+.form .callback .form-input .click {
+    margin: 27px 0 0 0;
+    width: 162px;
+    height: 42px;
+}
+
 .form .callback .input-two {
     margin: 30px 0 0 0;
     width: 676px;
@@ -141,6 +147,9 @@ header nav p:hover {
     justify-content: space-between;
     flex-direction: column;
     font-style: normal;
+    margin-left: 47px;
+    width: 399px;
+    height: 56px;
     
 
     color: #606060;
@@ -149,13 +158,15 @@ header nav p:hover {
 .callback .txt-input-one {
     width: 395px;
     height: 76px;
-    margin: 25px 0 0 47px;
+    margin-top: 25px;
+    
 }
 
 .callback .txt-input-two {
     width: 399px;
     height: 56px;
-    margin: 23px 0 0 47px;
+    margin-top: 40px;
+    
 }
 
 /*конец работы с txt-input*/
