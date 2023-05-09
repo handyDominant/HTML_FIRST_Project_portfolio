@@ -62,7 +62,7 @@ header nav p:hover {
 
 /*начало работы с Contact*/
 .form {
-    margin: 109px 0 0 0;
+    margin: 200px 0 0 0;
 
 }
 
@@ -79,15 +79,16 @@ header nav p:hover {
     flex-direction: column;
 }
 
-.form .one-title p{
+.form .one-title p {
     margin: 32px 0 0 0;
     font: 400 22px 'DM Sans';
     font-style: normal;
     color: #606060;
-
+    width: 672px;
+    height: 26px;
 }
 
-.form h2{
+.form h2 {
     font: 500 60px 'DM Sans';
     font-style: normal;
     color: #181717;
@@ -99,19 +100,67 @@ header nav p:hover {
 
 /*начало работы с Form-input*/
 
-.form .form-input {
+.form .callback {
     display: flex;
 }
 
-.form .form-input .input-one {
-    display: flex;
-    justify-content: space-between;
+
+/*начало работы с input*/
+
+.form .callback .input-one {
+    width: 676px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
 }
 
-.form .form-input .input-two {
+.form .callback .input-two {
+    margin: 30px 0 0 0;
+    width: 676px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+}
+ 
+/*конец работы с input*/
+
+/*начало работы с txt-input*/
+
+.form .callback .form-input {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0 0 0;
+}
+
+.callback .txt-input {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    font-style: normal;
+    
+
+    color: #606060;
 }
+
+.callback .txt-input-one {
+    width: 395px;
+    height: 76px;
+    margin: 25px 0 0 47px;
+}
+
+.callback .txt-input-two {
+    width: 399px;
+    height: 56px;
+    margin: 23px 0 0 47px;
+}
+
+/*конец работы с txt-input*/
+
+
 
 
 
