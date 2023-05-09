@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'DM Sans';
+
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    background: #E5E5E5;
+}
+
+/*Начало Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #E5E5E5;
+
+    position: fixed;
+    left:auto;
+    top: 0;
+    width: 1200px;
+}
+
+/*тут хранится картинка. (главный логотип)*/
+/*(логотип)*/
+header .img-logo {
+    background-image: url("../assets/hs..svg");
+    width: 64px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header nav {
+    display: flex;
+
+}
+
+header nav p {
+    color: #181717;
+    font: 500 27px 'DM Sans'
+}
+
+header nav p:not(:last-child) {
+    margin-right: 27px;
+}
+
+header nav p:hover {
+    text-decoration: underline;
+}
+
+/*Конец Header*/
+
+
+/*начало работы с формой*/
+
+/*начало работы с Contact*/
+.form {
+    margin: 109px 0 0 0;
+
+}
+
+.form .form-input {
+    display: flex;
+    justify-content: space-between;
+    margin: 109px 0 0 0;
+
+}
+
+.one-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.form .one-title p{
+    margin: 32px 0 0 0;
+    font: 400 22px 'DM Sans';
+    font-style: normal;
+    color: #606060;
+
+}
+
+.form h2{
+    font: 500 60px 'DM Sans';
+    font-style: normal;
+    color: #181717;
+
+}
+
+/*Конец работы с Contact*/
+
+
+/*начало работы с Form-input*/
+
+.form .form-input {
+    display: flex;
+}
+
+.form .form-input .input-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .form-input .input-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+/*конец работы с формой*/
+
+
+/*Нижняя часть*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 126px;
+}
+
+footer .networks {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+footer .networks p{
+    font: 500 22px 'DM Sans';
+    color: #181717;
+    
+}
+
+footer .networks p:not(:last-child) {
+    margin-right: 30px;
+    
+    
+}
+
+footer .name{
+    font: 500 22px 'DM Sans';
+    color: #2429AF;
+}
+
+/*Конец нижней части*/
