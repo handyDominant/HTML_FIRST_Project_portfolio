@@ -134,7 +134,6 @@ header nav p:hover {
  
 /*конец работы с input*/
 
-/*начало работы с txt-input*/
 
 .form .callback .form-input {
     display: flex;
@@ -155,6 +154,7 @@ header nav p:hover {
     color: #606060;
 }
 
+/*начало работы с txt-input*/
 .callback .txt-input-one {
     width: 395px;
     height: 76px;
@@ -165,11 +165,29 @@ header nav p:hover {
 .callback .txt-input-two {
     width: 399px;
     height: 56px;
-    margin-top: 40px;
-    
+    margin-top: 40px;  
 }
 
 /*конец работы с txt-input*/
+
+/*начало работы с Кнопкой*/
+
+.callback .form-input .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    background-color: #181717;
+    margin-top: 27px;
+    width: 162px;
+    height: 42px;
+
+    font:700 18px 'DM Sans';
+    font-style: normal;
+    color: #FFFFFF;
+}
+/*конец работы с Кнопкой*/
 
 
 
