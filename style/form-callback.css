@@ -187,7 +187,10 @@ header nav p:hover {
     font:700 18px 'DM Sans';
     font-style: normal;
     color: #FFFFFF;
-    
+}
+
+.callback .form-input .btn:hover {
+    background-color: #606060;
 
 }
 /*конец работы с Кнопкой*/
