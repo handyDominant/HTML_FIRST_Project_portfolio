@@ -179,6 +179,7 @@ header nav p:hover {
     
 
     background-color: #181717;
+    border-radius: 5px;
     margin-top: 27px;
     width: 162px;
     height: 42px;
@@ -186,6 +187,8 @@ header nav p:hover {
     font:700 18px 'DM Sans';
     font-style: normal;
     color: #FFFFFF;
+    
+
 }
 /*конец работы с Кнопкой*/
 
